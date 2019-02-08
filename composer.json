@@ -15,16 +15,16 @@
   "authors": [
     {
       "name": "Lenon Leite",
-      "email": "lenonleite@gmail.com.br",
+      "email": "lenonleite@gmail.com",
       "homepage": "http://www.lenonleite.com.br"
     },
     {
       "name": "Bruno Oliveira",
-      "email": "brunobinfo@gmail.com "
+      "email": "brunobinfo@gmail.com"
     },
     {
       "name": "Jorge Miguel",
-      "email": "jmiguel_barros@hotmail.com "
+      "email": "jmiguel_barros@hotmail.com"
     }
   ],
   "require": {
