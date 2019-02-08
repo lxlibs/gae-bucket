@@ -20,13 +20,11 @@
     },
     {
       "name": "Bruno Oliveira",
-      "email": "brunobinfo@gmail.com ",
-      "homepage": "http://www.lenonleite.com.br"
+      "email": "brunobinfo@gmail.com "
     },
     {
       "name": "Jorge Miguel",
-      "email": "jmiguel_barros@hotmail.com ",
-      "homepage": "http://www.lenonleite.com.br"
+      "email": "jmiguel_barros@hotmail.com "
     }
   ],
   "require": {
