@@ -1,0 +1,40 @@
+{
+  "name": "lxlibs/gae-bucket",
+  "type": "library",
+  "description": "Package on focus work with bucket in GOOGLE API ENGINEER",
+  "keywords": [
+    "gae",
+    "google",
+    "bucket",
+    "GOOGLE API ENGINEER",
+    "files",
+    "folder"
+  ],
+  "homepage": "http://www.lenonleite.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lenon Leite",
+      "email": "lenonleite@gmail.com.br",
+      "homepage": "http://www.lenonleite.com.br"
+    },
+    {
+      "name": "Bruno Oliveira",
+      "email": "brunobinfo@gmail.com ",
+      "homepage": "http://www.lenonleite.com.br"
+    },
+    {
+      "name": "Jorge Miguel",
+      "email": "jmiguel_barros@hotmail.com ",
+      "homepage": "http://www.lenonleite.com.br"
+    },
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Lxlibs\\Gae\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
