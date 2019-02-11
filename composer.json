@@ -33,7 +33,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Lxlibs\\Gae\\": "src/"
+      "LxLibs\\Gae\\": "src/"
     }
   },
   "minimum-stability": "dev"
