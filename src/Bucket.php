@@ -59,7 +59,7 @@ class Bucket
      * @return array
      */
     private function loadDefaultValues(){
-        $expireDate = \DateTime();
+        $expireDate = new \DateTime();
         return [
             'readCacheExpirySeconds' => Constants::DEFAULT_READ_CACHE,
             'enableCache' => Constants::DEFAULT_CACHE_FLAG,
@@ -164,7 +164,7 @@ class Bucket
      * @return \LxLibs\Gae\DateTime
      */
     private function getDateToOptions($timeSeconds){
-        $date = new DateTime();
+        $date = new \DateTime();
         $date->add(new DateInterval("PT{$timeSeconds}S"));
         return $date;
     }
