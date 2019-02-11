@@ -61,7 +61,7 @@ class Bucket
     private function loadDefaultValues(){
         $expireDate = new \DateTime();
         return [
-            'readCacheExpirySeconds' => Constants::DEFAULT_READ_CACHE,
+            'readCacheExpirySeconds' => Constants::DEFAULT_READ_CACHE_EXPIRY,
             'enableCache' => Constants::DEFAULT_CACHE_FLAG,
             'metadataExpires' => $expireDate->format('Y-m-d\TH:i:sT'),
             'metadataHits' => Constants::DEFAULT_CACHE_HITS_LIMIT
